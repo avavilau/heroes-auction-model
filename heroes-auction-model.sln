@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "heroes-auction-model", "heroes-auction-model.csproj", "{DF5B3D5A-CEF1-4B3F-B29D-B1206BE0F77E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF5B3D5A-CEF1-4B3F-B29D-B1206BE0F77E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5B3D5A-CEF1-4B3F-B29D-B1206BE0F77E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5B3D5A-CEF1-4B3F-B29D-B1206BE0F77E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5B3D5A-CEF1-4B3F-B29D-B1206BE0F77E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A60A8F28-E63F-4615-AF16-98752E7B5E4E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,106 @@
+<html>
+<body>
+
+    <div class="slidecontainer">
+        <input type="range" min="0" max="20000" value="10000" step="100" class="slider" id="money_range">
+        <p>Red Money: <input type="number" id="money_edit" value="10000"></p>
+    </div>
+
+    <div class="slidecontainer2">
+        <input type="range" min="0" max="1" value="0.5" step="0.01" class="slider" id="prob_range">
+        <p>Red Win Prob: <input type="number" id="prob_edit" value="0.5"></p>
+    </div>
+
+    <button onclick="resetZoom()">Reset Zoom</button>
+
+    <!--table id='coefficients'>
+        <tr>
+            <th>Town\Coefficient</th>
+            <th>Red0</th>
+            <th>Red1</th>
+            <th>Blue0</th>
+            <th>Blue1</th>
+        </tr>
+        <tr>
+            <th>Necropolis</th>
+            <td id="necr_red_0">0.0</td>
+            <td id="necr_red_1">0.0</td>
+            <td id="necr_blue_0">0.0</td>
+            <td id="necr_blue_1">0.0</td>
+        </tr>
+        <tr>
+            <th>Dungeon</th>
+            <td id="dung_red_0">0.0</td>
+            <td id="dung_red_1">0.0</td>
+            <td id="dung_blue_0">0.0</td>
+            <td id="dung_blue_1">0.0</td>
+        </tr>
+        <tr>
+            <th>Conflux</th>
+            <td id="flux_red_0">0.0</td>
+            <td id="flux_red_1">0.0</td>
+            <td id="flux_blue_0">0.0</td>
+            <td id="flux_blue_1">0.0</td>
+        </tr>
+        <tr>
+            <th>Castle</th>
+            <td id="cstl_red_0">0.0</td>
+            <td id="cstl_red_1">0.0</td>
+            <td id="cstl_blue_0">0.0</td>
+            <td id="cstl_blue_1">0.0</td>
+        </tr>
+        <tr>
+            <th>Tower</th>
+            <td id="towr_red_0">0.0</td>
+            <td id="towr_red_1">0.0</td>
+            <td id="towr_blue_0">0.0</td>
+            <td id="towr_blue_1">0.0</td>
+        </tr>
+        <tr>
+            <th>Rampart</th>
+            <td id="rmpt_red_0">0.0</td>
+            <td id="rmpt_red_1">0.0</td>
+            <td id="rmpt_blue_0">0.0</td>
+            <td id="rmpt_blue_1">0.0</td>
+        </tr>
+        <tr>
+            <th>Fortress</th>
+            <td id="frts_red_0">0.0</td>
+            <td id="frts_red_1">0.0</td>
+            <td id="frts_blue_0">0.0</td>
+            <td id="frts_blue_1">0.0</td>
+        </tr>
+        <tr>
+            <th>Stronghold</th>
+            <td id="strd_red_0">0.0</td>
+            <td id="strd_red_1">0.0</td>
+            <td id="strd_blue_0">0.0</td>
+            <td id="strd_blue_1">0.0</td>
+        </tr>
+        <tr>
+            <th>Cove</th>
+            <td id="cove_red_0">0.0</td>
+            <td id="cove_red_1">0.0</td>
+            <td id="cove_blue_0">0.0</td>
+            <td id="cove_blue_1">0.0</td>
+        </tr>
+        <tr>
+            <th>Inferno</th>
+            <td id="infn_red_0">0.0</td>
+            <td id="infn_red_1">0.0</td>
+            <td id="infn_blue_0">0.0</td>
+            <td id="infn_blue_1">0.0</td>
+        </tr>
+    </table-->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@next"></script>
+    <script src="https://cdn.jsdelivr.net/npm/hammerjs@2.0.8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-zoom@next"></script>    
+    <script src="towns.js"></script>
+    <script src="coefficients.js"></script>
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
